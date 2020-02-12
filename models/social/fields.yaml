@@ -1,0 +1,22 @@
+fields:
+    title:
+        label: 'eev.company::lang.title'
+        span: auto
+        type: text
+    is_active:
+        label: 'eev.company::lang.is_active'
+        span: auto
+        type: switch
+    type:
+        label: 'eev.company::lang.type'
+        showSearch: true
+        span: auto
+        type: dropdown
+    link:
+        label: 'eev.company::lang.link'
+        span: auto
+        type: text
+    icon_class:
+        label: 'eev.company::lang.icon_class'
+        span: auto
+        type: text

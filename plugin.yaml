@@ -1,0 +1,52 @@
+plugin:
+    name: 'eev.company::lang.plugin.name'
+    description: 'eev.company::lang.plugin.description'
+    author: 'Evgeny Epifanov'
+    icon: icon-address-card
+    homepage: 'https://eecode.ru'
+permissions:
+    eev.company.settings:
+        tab: 'eev.company::lang.company'
+        label: 'eev.company::lang.settings'
+    eev.company.contacts:
+        tab: 'eev.company::lang.company'
+        label: 'eev.company::lang.contacts'
+    eev.company.addresses:
+        tab: 'eev.company::lang.company'
+        label: 'eev.company::lang.addresses'
+    eev.company.socials:
+        tab: 'eev.company::lang.company'
+        label: 'eev.company::lang.social_networks'
+    eev.company.opening_hours:
+        tab: 'eev.company::lang.company'
+        label: 'eev.company::lang.opening_hours'
+navigation:
+    company:
+        label: 'eev.company::lang.company'
+        url: eev/company/contactcontroller
+        icon: icon-edit
+        sideMenu:
+            contacts:
+                label: 'eev.company::lang.contacts'
+                url: eev/company/contactcontroller
+                icon: icon-book
+                permissions:
+                    - eev.company.contacts
+            addresses:
+                label: 'eev.company::lang.addresses'
+                url: eev/company/addresscontroller
+                icon: icon-map-marker
+                permissions:
+                    - eev.company.addresses
+            socials:
+                label: 'eev.company::lang.social_networks'
+                url: eev/company/socialcontroller
+                icon: icon-users
+                permissions:
+                    - eev.company.socials
+            opening-hours:
+                label: 'eev.company::lang.opening_hours'
+                url: eev/company/workingperiodcontroller
+                icon: icon-clock-o
+                permissions:
+                    - eev.company.opening_hours

@@ -1,0 +1,12 @@
+list: $/eev/company/models/contact/columns.yaml
+modelClass: EEV\Company\Models\Contact
+title: 'eev.company::lang.contacts'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'eev/company/contactcontroller/update/:id'

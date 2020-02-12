@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: 'eev.company::lang.title'
+        type: text
+        searchable: true
+        sortable: true
+    type_name:
+        label: 'eev.company::lang.type'
+        type: text
+        searchable: true
+        sortable: true
+    link:
+        label: 'eev.company::lang.link'
+        type: text
+        searchable: true
+        sortable: false
+    is_active:
+        label: 'eev.company::lang.is_active'
+        type: switch
+        sortable: true

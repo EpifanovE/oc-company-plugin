@@ -1,0 +1,5 @@
+title: 'eev.company::lang.sorting'
+modelClass: EEV\Company\Models\WorkingPeriod
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

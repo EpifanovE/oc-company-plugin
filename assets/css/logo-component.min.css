@@ -1,0 +1,22 @@
+.logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center; }
+  .logo__img-wrapper {
+    -webkit-box-flex: 1;
+            flex: 1 0 auto;
+    margin-right: 1rem; }
+  .logo__img {
+    max-width: 100%; }
+  .logo__title {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem; }
+  .logo__desc {
+    display: block;
+    font-weight: normal;
+    font-size: 1rem; }
+
+
+/*# sourceMappingURL=logo-component.min.css.map*/

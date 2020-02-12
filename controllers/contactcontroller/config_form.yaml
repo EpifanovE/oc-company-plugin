@@ -1,0 +1,15 @@
+name: 'eev.company::lang.contact'
+modelClass: EEV\Company\Models\Contact
+form: $/eev/company/models/contact/fields.yaml
+defaultRedirect: eev/company/contactcontroller
+create:
+    title: 'eev.company::lang.creating'
+    redirect: 'eev/company/contactcontroller/update/:id'
+    redirectClose: eev/company/contactcontroller
+    flashSave: 'eev.company::lang.saved'
+update:
+    title: 'eev.company::lang.editing'
+    redirect: eev/company/contactcontroller
+    redirectClose: eev/company/contactcontroller
+    flashSave: 'eev.company::lang.saved'
+preview: {  }

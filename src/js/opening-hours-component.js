@@ -1,0 +1,1 @@
+import '../scss/opening-hours-component.scss';

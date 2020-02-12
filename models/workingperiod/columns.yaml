@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: text
+    day_name:
+        label: 'eev.company::lang.day'
+        type: text
+    time_from:
+        label: 'eev.company::lang.time_from'
+        type: text
+    time_till:
+        label: 'eev.company::lang.time_till'
+        type: text
+    around_the_clock:
+        label: 'eev.company::lang.around_the_clock'
+        type: switch

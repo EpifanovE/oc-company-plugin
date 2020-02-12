@@ -1,0 +1,7 @@
+1.0.0:
+    - 'Initialize plugin.'
+    - create_eev_company_contacts_table.php
+    - create_eev_company_addresses_table.php
+    - create_eev_company_socials_table.php
+    - create_eev_company_working_periods_table.php
+    - create_eev_company_settings_table.php

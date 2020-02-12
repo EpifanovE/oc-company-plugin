@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    name:
+        label: 'eev.company::lang.name'
+        type: text
+        searchable: true
+        sortable: true
+    country:
+        label: 'eev.company::lang.country'
+        type: text
+        searchable: true
+        sortable: true
+    region:
+        label: 'eev.company::lang.region'
+        type: text
+        searchable: true
+        sortable: true
+    locality:
+        label: 'eev.company::lang.locality'
+        type: text
+        searchable: true
+        sortable: true
+    street_address:
+        label: 'eev.company::lang.street_address'
+        type: text
+        searchable: true
+        sortable: true

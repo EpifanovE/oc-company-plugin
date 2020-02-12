@@ -1,0 +1,43 @@
+fields:
+    name:
+        label: 'eev.company::lang.name'
+        span: full
+        type: text
+        placeholder: 'eev.company::lang.main_office'
+    country:
+        label: 'eev.company::lang.country'
+        span: auto
+        type: text
+        placeholder: 'eev.company::lang.country_placeholder'
+    region:
+        label: 'eev.company::lang.region'
+        span: auto
+        type: text
+        placeholder: 'eev.company::lang.region_placeholder'
+    locality:
+        label: 'eev.company::lang.locality'
+        span: auto
+        type: text
+        placeholder: 'eev.company::lang.locality_placeholder'
+    postal_code:
+        label: 'eev.company::lang.postal_code'
+        span: auto
+        type: text
+        placeholder: 'eev.company::lang.postal_code_placeholder'
+    street_address:
+        label: 'eev.company::lang.street_address'
+        span: full
+        type: text
+        placeholder: 'eev.company::lang.street_address_placeholder'
+    coordinates:
+        label: 'eev.company::lang.coordinates'
+        span: full
+        type: section
+    latitude:
+        label: 'eev.company::lang.latitude'
+        span: auto
+        type: text
+    longitude:
+        label: 'eev.company::lang.longitude'
+        span: auto
+        type: text

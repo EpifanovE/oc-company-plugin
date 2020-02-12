@@ -1,0 +1,16 @@
+tabs:
+    fields:
+        name:
+            label: 'eev.company::lang.company_name'
+            type: text
+            tab: 'eev.company::lang.general_settings'
+        short_desc:
+            label: 'eev.company::lang.short_desc'
+            type: text
+            tab: 'eev.company::lang.general_settings'
+        logo:
+            label: 'eev.company::lang.logo'
+            type: mediafinder
+            tab: 'eev.company::lang.general_settings'
+            mode: image
+            imageWidth: 200
