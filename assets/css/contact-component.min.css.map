@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/scss/contact-component.scss"],"names":[],"mappings":"AAAA;EACE,oBAAa;EAAb,aAAa","file":"css/contact-component.min.css","sourcesContent":[".contact {\n  display: flex;\n}"],"sourceRoot":""}

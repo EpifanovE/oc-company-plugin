@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/scss/address-component.scss"],"names":[],"mappings":"AAAA;EACE,oBAAa;EAAb,aAAa","file":"css/address-component.min.css","sourcesContent":[".address {\n  display: flex;\n}"],"sourceRoot":""}
