@@ -195,7 +195,7 @@ class Logo extends ComponentBase
 
     public function getAttrs() {
         if ($this->property('link_to_home_page') && $this->page->url !== '/') {
-            return ' href="/"';
+            return ' href="'.url('/').'"';
         }
         return '';
     }
