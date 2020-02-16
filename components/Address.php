@@ -195,6 +195,10 @@ class Address extends ComponentBase
             'address',
         ];
 
+        if (!$this->property('show_as_list')) {
+            $classes[] = 'address_inline';
+        }
+
         return join(' ', $classes) . (( ! empty($this->property('adv_class')))
             ? ' ' . $this->property('adv_class')
             : '');
